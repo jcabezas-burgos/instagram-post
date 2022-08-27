@@ -1,0 +1,38 @@
+body {
+    background-color: black;
+}
+.post {
+    background-color: white;
+    width: 500px;
+    height: 650px;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    margin: auto;
+}
+.header {
+    display: flex;
+    height: 50px;
+    justify-content: space-between;
+    padding: 5px;
+    align-items: center;
+}
+.leftheader {
+    display: flex;
+}
+#header-icono1, #header-icono2 {
+    font-size: 30px;
+}
+.foto img {
+    height: 50%;
+    width: 100%;
+    object-fit: cover;
+}
+.bottom {
+    padding: 10px;
+}
+.logos {
+    font-size: 40px;
+}
+.logos #icono {
+    float: right;
+}
